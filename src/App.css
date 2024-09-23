@@ -45,6 +45,22 @@ body {
    align-items: center;
    justify-content: space-between;
 }
+.main::after {
+   content: "";
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   width: 100%;
+   height: 10%;
+   background: linear-gradient(
+      to top,
+      #222121,
+      #222121,
+      transparent
+   ); /* Dark color gradient at bottom */
+   z-index: 3;
+   margin-top: 1%;
+}
 .main .text {
    display: flex;
    flex-direction: column;
