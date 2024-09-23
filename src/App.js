@@ -1,13 +1,12 @@
 import logo from "./logo.svg";
 import "./App.css";
 
+import Intro from "./components/intro";
+
 function App() {
    return (
       <div className="full-page-background">
-         <div className="container">
-            <p>Hello world</p>
-            <p>Hello world</p>
-         </div>
+         <Intro />
       </div>
    );
 }

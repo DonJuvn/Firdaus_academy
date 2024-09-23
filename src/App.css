@@ -1,5 +1,6 @@
 body {
-   overflow: hidden;
+   overflow-x: hidden;
+   font-family: "Gilroy", sans-serif;
 }
 
 .full-page-background {
@@ -16,6 +17,80 @@ body {
    width: 90%;
    margin: auto;
 }
-p {
-   height: 500vh;
+
+/* INTRO - BLOCK */
+.logo {
+   position: absolute;
+   padding: 2% 0;
+}
+#texture1,
+#texture2,
+#texture3 {
+   position: absolute;
+   z-index: 1;
+   right: 0;
+}
+#texture1 {
+   margin-right: -40%;
+}
+#texture2 {
+   margin-right: 15%;
+}
+#texture3 {
+   margin-right: -13%;
+}
+.main {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: space-between;
+}
+.main .text {
+   display: flex;
+   flex-direction: column;
+   color: #f7f7f7;
+   width: 50%;
+   z-index: 2;
+}
+.main .text h1 {
+   font-weight: 800;
+   font-size: 48px;
+   line-height: 60px;
+}
+.main .text h1 span {
+   color: #cfa46c;
+}
+.main .text p {
+   font-size: 24px;
+   font-weight: 400;
+}
+.main .text a {
+   background-color: #cfa46c;
+   color: #222121;
+   padding: 19px 20px;
+   text-decoration: none;
+   align-items: center;
+   width: fit-content;
+   font-weight: 500;
+   font-size: 24px;
+   line-height: 28.25px;
+   border-radius: 20px;
+   transition: 0.3s;
+}
+.main .text a img {
+   margin: 0 0 0 10px;
+   align-items: center;
+}
+.main .text a:hover {
+   transform: scale(1.05);
+}
+
+.main .avatar {
+   width: 49%;
+   max-width: 49%;
+   text-align: center;
+   z-index: 2;
+}
+.main .avatar img {
+   width: 90%;
 }
