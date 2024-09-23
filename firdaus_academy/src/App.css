@@ -1,15 +1,14 @@
-body{
-  
+body {
+   overflow: hidden;
 }
-
 
 .full-page-background {
    background-image: url("../public/images/background.png"); /* Path relative to the public folder */
-   background-size:contain;
+   background-size: contain;
    background-position: center;
    background-repeat: repeat;
    height: 100%;
-   width: 100vw;
+   width: 100%;
    overflow: hidden;
    background-color: #222121;
 }
