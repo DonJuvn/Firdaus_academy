@@ -1,5 +1,4 @@
-import React from "react";
-const Intro = () => {
+import React from "react";const Intro = () => {
    return (
       <div id="intro">
          <div className="container">
@@ -19,7 +18,7 @@ const Intro = () => {
                      Научитесь всему, что нужно для старта и развития бизнеса, с
                      нашими экспертами
                   </p>
-                  <a href="#">
+                  <a id="calltoaction" href="#">
                      Записаться на курс{" "}
                      <img src="images/link-icon.png" alt="" />
                   </a>
