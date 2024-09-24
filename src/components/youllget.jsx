@@ -1,4 +1,5 @@
-import React from "react";const YoullGet = () => {
+import React from "react";
+const YoullGet = () => {
    return (
       <div id="youllget">
          <div className="container">
@@ -37,7 +38,9 @@ import React from "react";const YoullGet = () => {
                            />
                         </div>
                         <div className="line"></div>
-                        <h3 id="icon-text">Практические знания и опыт</h3>
+                        <h3 id="icon-text">
+                           Практические знания и незабываемый опыт
+                        </h3>
                      </div>
                      <div className="item">
                         <div className="icon">
@@ -75,7 +78,9 @@ import React from "react";const YoullGet = () => {
                            />
                         </div>
                         <div className="line"></div>
-                        <h3 id="icon-text">Уникальные техники продаж</h3>
+                        <h3 id="icon-text">
+                           Обучение к уникальным техникам продаж
+                        </h3>
                      </div>
                   </div>
                </div>
