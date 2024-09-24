@@ -126,7 +126,9 @@ body {
    align-items: flex-start;
 }
 #title {
-   min-width: fit-content;
+   min-width: 35%;
+   width: 40%;
+   max-width: 40%;
    color: #a0a0a0;
    font-weight: 400;
    font-size: 48px;
@@ -179,7 +181,7 @@ body {
    font-size: 24px;
    line-height: 28.25px;
    font-weight: 500;
-   width: 75%;
+   width: 90%;
    color: #f7f7f7;
 }
 .right .bigfour .item .line {
@@ -218,4 +220,45 @@ body {
 }
 .right .bigfour .item:hover .icon {
    border: #222121 solid 0.5px;
+}
+
+/* FORYOU BLOCK */
+#foryou {
+   padding-top: 10vh;
+}
+.foryou {
+   display: flex;
+   flex-direction: row;
+   align-items: flex-start;
+}
+.foryou .text {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   height: 35vh;
+   padding-top: 0.8%;
+   width: 75%;
+}
+.foryou .text .item {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: center;
+   width: 100%;
+   padding-bottom: 2%;
+   border-bottom: 0.5px solid #f7f7f7;
+   transition: 0.3s;
+}
+.foryou .text .item h4 {
+   font-size: 24px;
+   line-height: 28.8px;
+   color: #f7f7f7;
+   margin: 0;
+   font-weight: 400;
+}
+.foryou .text .item h4 span {
+   color: #cfa46c;
+}
+.foryou .text .item:hover {
+   transform: scale(1.03);
 }
