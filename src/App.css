@@ -48,7 +48,7 @@ body {
    align-items: center;
    justify-content: space-between;
 }
-#intro::after {
+/* #intro::after {
    content: "";
    position: absolute;
    bottom: 0;
@@ -60,10 +60,10 @@ body {
       #222121,
       #222121,
       transparent
-   ); /* Dark color gradient at bottom */
+   ); 
    z-index: 3;
    margin-top: 1%;
-}
+} */
 .main .text {
    display: flex;
    flex-direction: column;
@@ -221,6 +221,11 @@ body {
 .right .bigfour .item:hover .icon {
    border: #222121 solid 0.5px;
 }
+@media screen and (max-width: 1366px) {
+   .right .bigfour .item {
+      padding: 20px;
+   }
+}
 
 /* FORYOU BLOCK */
 #foryou {
@@ -341,6 +346,84 @@ body {
    font-weight: 500;
    line-height: 28.25px;
    color: #222121;
+}
+@media screen and (max-width: 1366px) {
+   .prices {
+      display: flex;
+      flex-direction: row;
+      width: 100%;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 5vh;
+      gap: 30px;
+      /* height: 70vh; */
+   }
+   .price {
+      background-color: #cfa46c;
+      border-radius: 30px;
+      padding: 0 3%;
+      min-height: 100vh;
+      height: 100vh;
+      transition: 0.5s;
+   }
+   .price:hover {
+      transform: scale(1.05);
+   }
+   .price .content {
+      padding: 20% 0;
+      height: 80%;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+   }
+   .sale {
+      display: flex;
+      flex-direction: column;
+      height: fit-content;
+   }
+   .price #old-price {
+      color: #f7f7f7;
+      font-size: 36px;
+      font-weight: 600;
+      line-height: 42.95px;
+      margin: 0 0 40px 0;
+      position: relative;
+   }
+   .old-price img {
+      position: absolute;
+      display: flex;
+      text-align: left;
+      justify-content: flex-start;
+      top: 0;
+   }
+   .price #new-price {
+      color: #222121;
+      font-size: 48px;
+      font-weight: 600;
+      line-height: 57.26px;
+      margin: 0;
+   }
+   .price p {
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 24px;
+      margin: 100vh;
+   }
+   .price .calltoaction {
+      background-color: #f7f7f7;
+      text-decoration: none;
+      width: 100%;
+      padding: 15px 0;
+      text-align: center;
+      border-radius: 20px;
+   }
+   .calltoaction a {
+      text-decoration: none;
+      font-size: 24px;
+      font-weight: 500;
+      line-height: 28.25px;
+      color: #222121;
+   }
 }
 
 /* WHYAREWE BLOCK */
