@@ -4,6 +4,7 @@ import "./App.css";
 import Intro from "./components/intro";
 import YoullGet from "./components/youllget";
 import ForYou from "./components/foryou";
+import Price from "./components/price";
 
 function App() {
    return (
@@ -11,6 +12,7 @@ function App() {
          <Intro />
          <YoullGet />
          <ForYou />
+         <Price />
       </div>
    );
 }
