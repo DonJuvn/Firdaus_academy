@@ -7,6 +7,7 @@ import ForYou from "./components/foryou";
 import Price from "./components/price";
 import WhyAreWe from "./components/whyarewe";
 import Features from "./components/features";
+import Founder from "./components/founder";
 
 function App() {
    return (
@@ -17,6 +18,7 @@ function App() {
          <Price />
          <WhyAreWe />
          <Features />
+         <Founder />
       </div>
    );
 }
