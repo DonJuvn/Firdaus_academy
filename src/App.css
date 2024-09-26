@@ -555,5 +555,52 @@ body {
    position: absolute;
    top: 0;
    right: 0;
-   transition: .3s;
+   transition: 0.3s;
+}
+
+/* FOOTER BLOCK */
+#footer {
+   margin-top: 15vh;
+   padding-bottom: 5vh;
+}
+#footer #footer-logo {
+   width: 100%;
+   padding-bottom: 5vh;
+   border-bottom: 0.5px solid #f7f7f7;
+}
+.footer {
+   margin-top: 2%;
+   display: flex;
+   flex-direction: row;
+   width: 100%;
+}
+#footer p,
+a {
+   font-size: 20px;
+   line-height: 24px;
+   font-weight: 400;
+   color: #f7f7f7;
+   text-decoration: none;
+   margin: 10px;
+   transition: 0.3s;
+}
+#footer a:hover {
+   color: #cfa46c;
+}
+.footer .contacts {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   margin-right: 15%;
+}
+.footer .social {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   margin-right: 40%;
+}
+.footer #right {
+   right: 0;
+   font-size: 24px;
+   line-height: 28.8px;
 }

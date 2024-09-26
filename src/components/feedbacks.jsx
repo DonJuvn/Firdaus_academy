@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-
 const FeedBacks = () => {
    // Array of feedbacks
    const feedbacks = [

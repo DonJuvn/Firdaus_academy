@@ -11,6 +11,7 @@ import Founder from "./components/founder";
 import HowToStudy from "./components/howtostudy";
 import FeedBacks from "./components/feedbacks";
 import QA from "./components/qa";
+import Footer from "./components/footer";
 
 function App() {
    return (
@@ -25,6 +26,7 @@ function App() {
          <HowToStudy />
          <FeedBacks />
          <QA />
+         <Footer />
       </div>
    );
 }
