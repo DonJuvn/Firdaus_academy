@@ -535,3 +535,25 @@ body {
    margin: 0 10px;
    cursor: pointer;
 }
+
+/* QA BLOCK */
+#qa {
+   margin-top: 10vh;
+}
+#qa .item {
+   flex-direction: column;
+   text-align-last: left;
+}
+#qa .item h4 {
+   min-width: 100%;
+}
+#qa .item p {
+   text-align-last: left;
+   color: #f7f7f7;
+}
+#qa img {
+   position: absolute;
+   top: 0;
+   right: 0;
+   transition: .3s;
+}

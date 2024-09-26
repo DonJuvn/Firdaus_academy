@@ -10,6 +10,7 @@ import Features from "./components/features";
 import Founder from "./components/founder";
 import HowToStudy from "./components/howtostudy";
 import FeedBacks from "./components/feedbacks";
+import QA from "./components/qa";
 
 function App() {
    return (
@@ -23,6 +24,7 @@ function App() {
          <Founder />
          <HowToStudy />
          <FeedBacks />
+         <QA />
       </div>
    );
 }
