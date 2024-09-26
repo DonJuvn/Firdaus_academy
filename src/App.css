@@ -276,7 +276,6 @@ body {
    margin-top: 5vh;
    gap: 30px;
    /* height: 70vh; */
-   margin-bottom: 10vh;
 }
 .price {
    background-color: #cfa46c;
@@ -342,4 +341,41 @@ body {
    font-weight: 500;
    line-height: 28.25px;
    color: #222121;
+}
+
+/* WHYAREWE BLOCK */
+#whyarewe {
+   padding-top: 10vh;
+}
+.whyarewe {
+   display: flex;
+   flex-direction: row;
+}
+.whyarewe .items {
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   gap: 30px;
+   margin-left: -0.9%;
+}
+.whyarewe .items .item {
+   display: flex;
+   flex-direction: column;
+   width: 280px;
+   padding: 30px 0 30px 30px;
+   justify-content: space-between;
+   background-color: #f7f7f7;
+   border-radius: 20px;
+   height: 217px;
+}
+.whyarewe .item img {
+   width: 80px;
+   top: 0;
+}
+.whyarewe .items .item p {
+   font-size: 24px;
+   font-weight: 400;
+   line-height: 28.8px;
+   color: #222121;
+   margin: 0;
 }

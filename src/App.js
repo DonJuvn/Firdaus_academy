@@ -5,6 +5,7 @@ import Intro from "./components/intro";
 import YoullGet from "./components/youllget";
 import ForYou from "./components/foryou";
 import Price from "./components/price";
+import WhyAreWe from "./components/whyarewe";
 
 function App() {
    return (
@@ -13,6 +14,7 @@ function App() {
          <YoullGet />
          <ForYou />
          <Price />
+         <WhyAreWe />
       </div>
    );
 }
