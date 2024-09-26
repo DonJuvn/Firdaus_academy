@@ -8,6 +8,7 @@ import Price from "./components/price";
 import WhyAreWe from "./components/whyarewe";
 import Features from "./components/features";
 import Founder from "./components/founder";
+import HowToStudy from "./components/howtostudy";
 
 function App() {
    return (
@@ -19,6 +20,7 @@ function App() {
          <WhyAreWe />
          <Features />
          <Founder />
+         <HowToStudy />
       </div>
    );
 }
