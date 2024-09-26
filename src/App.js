@@ -9,6 +9,7 @@ import WhyAreWe from "./components/whyarewe";
 import Features from "./components/features";
 import Founder from "./components/founder";
 import HowToStudy from "./components/howtostudy";
+import FeedBacks from "./components/feedbacks";
 
 function App() {
    return (
@@ -21,6 +22,7 @@ function App() {
          <Features />
          <Founder />
          <HowToStudy />
+         <FeedBacks />
       </div>
    );
 }
