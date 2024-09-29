@@ -1,5 +1,4 @@
-import React from "react";
-const YoullGet = () => {
+import React from "react";const YoullGet = () => {
    return (
       <div id="youllget">
          <div className="container">
@@ -23,7 +22,7 @@ const YoullGet = () => {
                         парфюмы, подбирая их с учётом индивидуальных
                         предпочтений.
                      </p>
-                     <a id="calltoaction" href="#">
+                     <a id="calltoaction" href="#price">
                         Узнать больше <img src="images/link-icon.png" alt="" />
                      </a>
                   </div>

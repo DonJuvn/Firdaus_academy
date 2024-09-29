@@ -1,5 +1,4 @@
-import React from "react";
-const Price = () => {
+import React from "react";const Price = () => {
    return (
       <div id="price">
          <div className="container">
@@ -27,7 +26,9 @@ const Price = () => {
                         </p>
                      </div>
                      <div className="calltoaction">
-                        <a href="#">Выбрать</a>
+                        <a href="https://wa.me/77478602030?text=Здравствуйте, хочу записаться на ваш курс по парфюмерии. Я хотел бы выбрать тариф ONLINE">
+                           Выбрать
+                        </a>
                      </div>
                   </div>
                </div>
@@ -61,7 +62,9 @@ const Price = () => {
                         </p>
                      </div>
                      <div className="calltoaction">
-                        <a href="#">Выбрать</a>
+                        <a href="https://wa.me/77478602030?text=Здравствуйте, хочу записаться на ваш курс по парфюмерии. Я хотел бы выбрать тариф OFFLINE">
+                           Выбрать
+                        </a>
                      </div>
                   </div>
                </div>
@@ -99,7 +102,9 @@ const Price = () => {
                         </p>
                      </div>
                      <div className="calltoaction">
-                        <a href="#">Выбрать</a>
+                        <a href="https://wa.me/77478602030?text=Здравствуйте, хочу записаться на ваш курс по парфюмерии. Я хотел бы выбрать тариф VIP">
+                           Выбрать
+                        </a>
                      </div>
                   </div>
                </div>

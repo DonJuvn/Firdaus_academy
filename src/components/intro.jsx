@@ -1,4 +1,5 @@
-import React from "react";const Intro = () => {
+import React from "react";
+const Intro = () => {
    return (
       <div id="intro">
          <div className="container">
@@ -18,7 +19,10 @@ import React from "react";const Intro = () => {
                      Научитесь всему, что нужно для старта и развития бизнеса, с
                      нашими экспертами
                   </p>
-                  <a id="calltoaction" href="#">
+                  <a
+                     id="calltoaction"
+                     href="https://wa.me/77478602030?text=Здравствуйте, хочу записаться на ваш курс по парфюмерии"
+                  >
                      Записаться на курс{" "}
                      <img src="images/link-icon.png" alt="" />
                   </a>

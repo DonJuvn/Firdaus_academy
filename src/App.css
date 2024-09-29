@@ -1,3 +1,7 @@
+html {
+   scroll-behavior: smooth;
+}
+
 body {
    overflow-x: hidden;
    font-family: "Gilroy", sans-serif;
@@ -287,15 +291,16 @@ body {
    border-radius: 30px;
    padding: 0 3%;
    min-height: 100vh;
-   height: 100vh;
+   /* height: 100vh; */
+   height: fit-content;
    transition: 0.5s;
 }
 .price:hover {
    transform: scale(1.05);
 }
 .price .content {
-   padding: 20% 0;
-   height: 80%;
+   margin: 20% 0;
+   height: 90vh;
    display: flex;
    flex-direction: column;
    justify-content: space-between;
@@ -626,6 +631,7 @@ body {
 #qa .item {
    flex-direction: column;
    text-align-last: left;
+   position: relative;
 }
 #qa .item h4 {
    min-width: 100%;
