@@ -1,4 +1,5 @@
-import React from "react";const WhyAreWe = () => {
+import React from "react";
+const WhyAreWe = () => {
    return (
       <div id="whyarewe">
          <div className="container">

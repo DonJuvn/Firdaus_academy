@@ -130,7 +130,7 @@ body {
       line-height: 19.25px;
    }
 }
-@media screen and (max-width: 413px) {
+@media screen and (max-width: 768px) {
    .logo {
       padding: 5% 0;
    }
@@ -188,7 +188,7 @@ body {
       line-height: 45px;
    }
 }
-@media screen and (max-width: 413px) {
+@media screen and (max-width: 768px) {
    #title {
       font-size: 36px;
       line-height: 38.25px;
@@ -289,7 +289,7 @@ body {
       padding: 20px;
    }
 }
-@media screen and (max-width: 413px) {
+@media screen and (max-width: 768px) {
    .youllget {
       flex-direction: column;
    }
@@ -345,7 +345,7 @@ body {
 .foryou .text .item:hover {
    transform: scale(1.03);
 }
-@media screen and (max-width: 413px) {
+@media screen and (max-width: 768px) {
    .foryou {
       flex-direction: column;
    }
@@ -355,6 +355,14 @@ body {
    .foryou .text .item h4 {
       font-size: 18px;
       line-height: 19.75px;
+   }
+}
+@media screen and (max-width: 380px) {
+   .foryou .text .item h4 {
+      width: 70%;
+   }
+   .foryou .text {
+      height: 50vh;
    }
 }
 /* PRICE BLOCK */
@@ -532,6 +540,14 @@ body {
       display: none;
    }
 }
+@media screen and (max-width: 380px) {
+   .price .content {
+      margin: 10% 0;
+   }
+   .prices .price .content {
+      height: 100vh;
+   }
+}
 
 /* WHYAREWE BLOCK */
 #whyarewe {
@@ -588,7 +604,7 @@ body {
       line-height: 18.75px;
    }
 }
-@media screen and (max-width: 413px) {
+@media screen and (max-width: 768px) {
    .whyarewe {
       flex-direction: column;
    }
@@ -695,7 +711,7 @@ body {
    }
 }
 
-@media screen and (max-width: 413px) {
+@media screen and (max-width: 768px) {
    .features {
       flex-direction: column;
    }
@@ -804,7 +820,7 @@ body {
       color: #a0a0a0;
    }
 }
-@media screen and (max-width: 413px) {
+@media screen and (max-width: 768px) {
    #founder {
       padding-top: 2vh;
    }
@@ -835,6 +851,11 @@ body {
    .founder .text a {
       margin: auto;
       padding: 4px 10px;
+   }
+}
+@media screen and (max-width: 380px) {
+   #founder {
+      height: 130vh;
    }
 }
 /* FEEDBACKS BLOCK */
@@ -896,7 +917,7 @@ body {
       margin-bottom: 10vh;
    }
 }
-@media screen and (max-width: 413px) {
+@media screen and (max-width: 768px) {
    .feedbacks {
       flex-direction: column;
    }
@@ -905,6 +926,11 @@ body {
    }
    .feedbacks .slider .feedback {
       height: 30vh;
+   }
+}
+@media screen and (max-width: 380px) {
+   .feedbacks .slider {
+      height: 50vh;
    }
 }
 
@@ -930,9 +956,14 @@ body {
    right: 0;
    transition: 0.3s;
 }
-@media screen and (max-width: 413px) {
+@media screen and (max-width: 768px) {
    #qa .foryou .text {
       height: 50vh;
+   }
+}
+@media screen and (max-width: 380px) {
+   #qa .foryou .text {
+      height: 70vh;
    }
 }
 
@@ -988,7 +1019,7 @@ a {
       margin-right: 25%;
    }
 }
-@media screen and (max-width: 413px) {
+@media screen and (max-width: 768px) {
    #footer p,
    a {
       font-size: 16px;

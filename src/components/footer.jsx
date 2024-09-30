@@ -10,10 +10,10 @@ import React from "react";const Footer = () => {
                   <p>г. Тараз Қазыбек би 189/2</p>
                </div>
                <div className="social">
-                  <a href="#">
+                  <a href="https://www.instagram.com/firdaus.academy/">
                      instagram <img src="images/link.png" alt="" />
                   </a>
-                  <a href="#">
+                  <a href="https://wa.me/77478602030">
                      whatsapp <img src="images/link.png" alt="" />
                   </a>
                   <a href="#">
