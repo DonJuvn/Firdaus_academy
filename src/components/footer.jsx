@@ -1,4 +1,5 @@
-import React from "react";const Footer = () => {
+import React from "react";
+const Footer = () => {
    return (
       <div id="footer">
          <div className="container">
@@ -16,9 +17,9 @@ import React from "react";const Footer = () => {
                   <a href="https://wa.me/77478602030">
                      whatsapp <img src="images/link.png" alt="" />
                   </a>
-                  <a href="#">
+                  {/* <a href="#">
                      facebook <img src="images/link.png" alt="" />
-                  </a>
+                  </a> */}
                </div>
                <p id="right">
                   Политика конфиденциальности условия использования.

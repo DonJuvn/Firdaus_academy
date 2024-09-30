@@ -5,6 +5,7 @@ html {
 
 body {
    overflow-x: hidden;
+   overflow: hidden;
    font-family: "Gilroy", sans-serif;
 }
 
@@ -823,6 +824,7 @@ body {
 @media screen and (max-width: 768px) {
    #founder {
       padding-top: 2vh;
+      height: 100vh;
    }
    .founder {
       display: block;
