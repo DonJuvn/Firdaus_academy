@@ -1,5 +1,4 @@
-import React from "react";
-const ForYou = () => {
+import React from "react";const ForYou = () => {
    return (
       <div id="foryou">
          <div className="container">
@@ -22,7 +21,7 @@ const ForYou = () => {
                   <div className="item">
                      <h4>
                         Вы хотите зарабатывать от{" "}
-                        <span>1000 000 тенге в месяц</span>
+                        <span>1 000 000 тенге в месяц</span>
                      </h4>
                      <img src="images/link-icon-white.png" alt="" />
                   </div>

@@ -1,5 +1,4 @@
-import React, { useState } from "react";
-const QA = () => {
+import React, { useState } from "react";const QA = () => {
    // Array of answers (you can adjust these to match your data)
    const answers = [
       "Для начала парфюмерного бизнеса необходимо провести исследование рынка, определить целевую аудиторию, разработать уникальную концепцию и ароматы. Важно найти поставщиков сырья, лабораторию для производства проб, а затем создать бренд и начать продвижение продукта.",
@@ -20,7 +19,7 @@ const QA = () => {
       <div id="qa">
          <div className="container">
             <div className="foryou">
-               <h1 id="title">Этот курс для вас, если...</h1>
+               <h1 id="title">Вопросы и ответы</h1>
                <div className="text">
                   {answers.map((answer, index) => (
                      <div className="item" key={index}>
