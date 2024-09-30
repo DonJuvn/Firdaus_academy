@@ -120,6 +120,16 @@ body {
    width: 90%;
 }
 
+@media screen and (max-width: 1367px) {
+   .main .text h1 {
+      font-size: 36px;
+      line-height: 36.75px;
+   }
+   #calltoaction {
+      font-size: 18px;
+      line-height: 19.25px;
+   }
+}
 /* YOULLGET BLOCK */
 #youllget {
    padding-top: 10vh;
@@ -181,7 +191,7 @@ body {
    justify-content: space-between;
    background-color: transparent;
    color: #a0a0a0;
-   padding: 30px;
+   padding: 20px;
    width: 40%;
    border: #a0a0a0 solid 0.5px;
    border-radius: 20px;
@@ -331,6 +341,11 @@ body {
    justify-content: flex-start;
    top: 0;
    z-index: 4;
+}
+@media screen and (max-width: 1367px) {
+   .old-price img {
+      margin-top: -7%;
+   }
 }
 .price #new-price {
    color: #222121;
@@ -510,6 +525,27 @@ body {
    color: #f7f7f7;
    margin: 8px 0;
 }
+@media screen and (max-width: 1367px) {
+   .features .content .item {
+      padding: 15px 0;
+      width: 46%;
+      height: 50%;
+   }
+   .features .content .item .number {
+      padding: 20px;
+      font-size: 32px;
+      line-height: 32px;
+   }
+   .features .content .item h3 {
+      font-size: 24px;
+      line-height: 24.75px;
+      margin: 15px 0;
+   }
+   .features .content .item p {
+      font-size: 16px;
+      line-height: 17.25px;
+   }
+}
 
 /* FOUNDER BLOCK */
 #founder {
@@ -631,6 +667,19 @@ body {
    cursor: pointer;
 }
 
+@media screen and (max-width: 1367px) {
+   .feedbacks .slider {
+      position: relative;
+   }
+   .feedbacks .buttons {
+      position: absolute;
+      margin-bottom: -7%;
+   }
+   .feedbacks .slider .feedback {
+      margin-bottom: 10vh;
+   }
+}
+
 /* QA BLOCK */
 #qa {
    margin-top: 10vh;
@@ -699,4 +748,10 @@ a {
    right: 0;
    font-size: 24px;
    line-height: 28.8px;
+}
+
+@media screen and (max-width: 1367px) {
+   .footer .social {
+      margin-right: 25%;
+   }
 }
