@@ -1,5 +1,4 @@
-import React, { useState } from "react";
-const Price = () => {
+import React, { useState } from "react";const Price = () => {
    const [activeIndex, setActiveIndex] = useState(0);
 
    const prices = [
@@ -79,7 +78,7 @@ const Price = () => {
                         <div className="sale">
                            <div className="old-price">
                               <h5 id="old-price">
-                                 {price.title}
+                                 {price.oldPrice}
                                  <img src="images/line.png" alt="" />
                               </h5>
                            </div>
