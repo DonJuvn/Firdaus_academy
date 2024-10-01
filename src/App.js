@@ -11,6 +11,7 @@ import Founder from "./components/founder";
 import HowToStudy from "./components/howtostudy";
 import FeedBacks from "./components/feedbacks";
 import QA from "./components/qa";
+import PopupForm from "./components/form";
 import Footer from "./components/footer";
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
          <HowToStudy />
          <FeedBacks />
          <QA />
+         {/* <PopupForm /> */}
          <Footer />
       </div>
    );
