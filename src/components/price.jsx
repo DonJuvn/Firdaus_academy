@@ -1,4 +1,5 @@
-import React, { useState } from "react";const Price = () => {
+import React, { useState } from "react";
+const Price = () => {
    const [activeIndex, setActiveIndex] = useState(0);
 
    const prices = [
@@ -32,8 +33,8 @@ import React, { useState } from "react";const Price = () => {
          url: "https://wa.me/77478602030?text=Здравствуйте, хочу записаться на ваш курс по парфюмерии. Я хотел бы выбрать тариф OFFLINE",
       },
       {
-         title: "VIP 1.500.000 тг",
-         oldPrice: "1.000.000 тг",
+         title: "VIP 2.500.000 тг",
+         oldPrice: "5.000.000 тг",
          features: [
             "Обучение 1 месяц.",
             "20 занятий в комфортном офисе.",
