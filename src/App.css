@@ -2,7 +2,9 @@ html {
    scroll-behavior: smooth;
    overflow-x: hidden;
 }
-
+/* * {
+   outline: 1px solid red; 
+} */
 body {
    overflow-x: hidden;
    overflow: hidden;
@@ -47,6 +49,13 @@ body {
 }
 #texture3 {
    margin-right: -13%;
+}
+@media screen and (max-width: 770px) {
+   #texture1,
+   #texture2,
+   #texture3 {
+      display: none;
+   }
 }
 .main {
    display: flex;
@@ -507,6 +516,10 @@ body {
 }
 
 @media (max-width: 768px) {
+   body {
+      max-width: 100vw;
+      overflow: hidden;
+   }
    .prices {
       flex-direction: column;
    }
