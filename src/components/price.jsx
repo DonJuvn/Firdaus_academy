@@ -1,4 +1,5 @@
-import React, { useState } from "react";const Price = () => {
+import React, { useState } from "react";
+const Price = () => {
    const [activeIndex, setActiveIndex] = useState(0);
 
    const prices = [
@@ -19,7 +20,6 @@ import React, { useState } from "react";const Price = () => {
          oldPrice: "700.000 тг",
          features: [
             "Обучение 1 месяц.",
-            "20 занятий в комфортном офисе.",
             "Обратная связь на уроках и в чате.",
             "Приглашенные топовые спикеры.",
             "Доступ на 6 месяцев на видеоуроки.",
@@ -36,7 +36,6 @@ import React, { useState } from "react";const Price = () => {
          oldPrice: "2.500.000 тг",
          features: [
             "Обучение 1 месяц.",
-            "20 занятий в комфортном офисе.",
             "Обратная связь на уроках и в чате.",
             "Приглашенные топовые спикеры.",
             "Доступ на 6 месяцев на видеоуроки.",
