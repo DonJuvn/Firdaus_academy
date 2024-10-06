@@ -1,5 +1,12 @@
-import React from "react";
+import React, { useState } from "react";import PopupForm from "./form";
+
 const Founder = () => {
+   const [isPopupOpen, setIsPopupOpen] = useState(false);
+
+   const togglePopup = () => {
+      setIsPopupOpen(!isPopupOpen);
+   };
+
    return (
       <div id="founder">
          <div className="container">
@@ -24,15 +31,19 @@ const Founder = () => {
                         секретами успеха в нише парфюмерии.
                      </p>
                   </div>
-                  <a
+                  <button id="calltoaction" onClick={togglePopup}>
+                     Выбрать <img src="images/link-icon.png" alt="link icon" />
+                  </button>
+                  {/* <a
                      id="calltoaction"
                      href="https://wa.me/77478602030?text=Здравствуйте, хочу записаться на ваш курс по парфюмерии"
                   >
                      Свяжитесь с нами <img src="images/link-icon.png" alt="" />
-                  </a>
+                  </a> */}
                </div>
             </div>
          </div>
+         {isPopupOpen && <PopupForm togglePopup={togglePopup} />}
       </div>
    );
 };

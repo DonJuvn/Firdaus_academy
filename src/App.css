@@ -110,10 +110,13 @@ body {
    line-height: 28.25px;
    border-radius: 20px;
    transition: 0.3s;
+   border: none;
 }
+
 #calltoaction img {
    margin: 0 0 0 10px;
    align-items: center;
+   width: 17.5px;
 }
 #calltoaction:hover {
    transform: scale(1.05);
@@ -479,7 +482,7 @@ body {
    color: #222121;
    border: none;
 }
-.price #calltoaction img{
+.price #calltoaction img {
    width: 15px;
 }
 /* .calltoaction a {
@@ -725,7 +728,7 @@ body {
    color: #f7f7f7;
    margin: 8px 0;
 }
-@media screen and (max-width: 1367px) {
+@media screen and (max-width: 1536px) {
    .features .content .item {
       padding: 15px 0;
       width: 46%;
@@ -825,6 +828,20 @@ body {
    font-weight: 400;
    line-height: 24px;
    color: #a0a0a0;
+}
+#founder #calltoaction {
+   background-color: #cfa46c;
+   color: #222121;
+   padding: 19px 20px;
+   text-decoration: none;
+   align-items: center;
+   width: fit-content;
+   font-weight: 500;
+   font-size: 18px;
+   line-height: 19.25px;
+   border-radius: 20px;
+   transition: 0.3s;
+   border: none;
 }
 
 @media screen and (max-width: 1536px) {
