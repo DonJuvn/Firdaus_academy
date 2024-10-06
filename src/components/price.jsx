@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import React, { useState } from "react";import PopupForm from "./form";
+
 const Price = () => {
    const [activeIndex, setActiveIndex] = useState(0);
 
@@ -61,6 +62,12 @@ const Price = () => {
       setActiveIndex((prevIndex) => (prevIndex + 1) % prices.length);
    };
 
+   const [isPopupOpen, setIsPopupOpen] = useState(false);
+
+   const togglePopup = () => {
+      setIsPopupOpen(!isPopupOpen);
+   };
+
    return (
       <div id="price">
          <div className="container">
@@ -91,7 +98,11 @@ const Price = () => {
                            ))}
                         </div>
                         <div className="calltoaction">
-                           <a href={price.url}>Выбрать</a>
+                           {/* <a href={price.url}>Выбрать</a> */}
+                           <button id="calltoaction" onClick={togglePopup}>
+                              Выбрать{" "}
+                              <img src="images/link-icon.png" alt="link icon" />
+                           </button>
                         </div>
                      </div>
                   </div>
@@ -106,6 +117,7 @@ const Price = () => {
                </button>
             </div>
          </div>
+         {isPopupOpen && <PopupForm togglePopup={togglePopup} />}
       </div>
    );
 };
