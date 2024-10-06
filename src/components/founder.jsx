@@ -32,7 +32,8 @@ const Founder = () => {
                      </p>
                   </div>
                   <button id="calltoaction" onClick={togglePopup}>
-                     Выбрать <img src="images/link-icon.png" alt="link icon" />
+                     Свяжитесь с нами{" "}
+                     <img src="images/link-icon.png" alt="link icon" />
                   </button>
                   {/* <a
                      id="calltoaction"

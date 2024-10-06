@@ -10,6 +10,9 @@ body {
    overflow: hidden;
    font-family: "Gilroy", sans-serif;
 }
+button {
+   font-family: "Gilroy", sans-serif;
+}
 
 .full-page-background {
    background-image: url("../public/images/background.png"); /* Path relative to the public folder */
