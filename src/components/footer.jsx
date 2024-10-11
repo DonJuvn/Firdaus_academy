@@ -1,14 +1,13 @@
-import React from "react";
-const Footer = () => {
+import React from "react";const Footer = () => {
    return (
       <div id="footer">
          <div className="container">
             <img id="footer-logo" src="images/footer.png" alt="" />
             <div className="footer">
                <div className="contacts">
-                  <p>8 (707) 569 55 88</p>
-                  <p>firdausacademy@mail.ru</p>
-                  <p>г. Тараз Қазыбек би 189/2</p>
+                  <p>8 (747)860 20 30</p>
+                  {/* <p>firdausacademy@mail.ru</p> */}
+                  <p>г. Тараз Абая 103А, 4 этаж 21</p>
                </div>
                <div className="social">
                   <a href="https://www.instagram.com/firdaus.academy/">
