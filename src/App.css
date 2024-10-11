@@ -519,13 +519,13 @@ button {
       height: 90vh;
    }
    .price #old-price {
-      font-size: 28px;
+      font-size: 24px;
       line-height: 29.85px;
       margin: 0 0 30px 0;
    }
    .price #new-price {
       text-align: center;
-      font-size: 36px;
+      font-size: 30px;
       line-height: 37px;
    }
    .price p {
